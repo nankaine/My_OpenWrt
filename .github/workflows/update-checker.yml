@@ -23,6 +23,7 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 120 # 自己加时间
 
     steps:
 
