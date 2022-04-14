@@ -12,4 +12,9 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+# 修改默认IP
 sed -i 's/192.168.1.1/192.168.250.1/g' package/base-files/files/bin/config_generate
+# 测试修改主机名
+sed -i 's/OpenWrt/OpenWrt-HC5661/g' package/base-files/files/bin/config_generate
+# 测试加上作者
+sed -i 's/OpenWrt/OpenWrt By Liang/g' package/lean/default-settings/files/zzz-default-settings
