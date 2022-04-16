@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Ji1S
+name: xiaomir3g
 
 on:
   repository_dispatch:
