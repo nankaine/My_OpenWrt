@@ -21,3 +21,9 @@
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
+echo 'src-git cdnspeedtest https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git' >> feeds.conf.default
+echo 'src-git cftest https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git' >> feeds.conf.default
+# Add others repo
+git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
+git clone https://github.com/KFERMercer/luci-app-tcpdump.git package/luci-app-tcpdump
